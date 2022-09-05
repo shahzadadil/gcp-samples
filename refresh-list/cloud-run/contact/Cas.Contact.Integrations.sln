@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cas.Contact.Data.Models", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cas.Contact.Services", "Cas.Contact.Services\Cas.Contact.Services.csproj", "{CBFB6977-8BE3-4906-B8BE-6747A46E73C6}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cas.Core.Services.Gcp", "..\core\Cas.Core.Services.Gcp\Cas.Core.Services.Gcp.csproj", "{7984D682-85DD-4577-949B-50839E34C457}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cas.Core", "..\core\Cas.Core\Cas.Core.csproj", "{0404E330-B2DB-4292-8E55-2E99EED9979B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{CBFB6977-8BE3-4906-B8BE-6747A46E73C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBFB6977-8BE3-4906-B8BE-6747A46E73C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBFB6977-8BE3-4906-B8BE-6747A46E73C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7984D682-85DD-4577-949B-50839E34C457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7984D682-85DD-4577-949B-50839E34C457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7984D682-85DD-4577-949B-50839E34C457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7984D682-85DD-4577-949B-50839E34C457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0404E330-B2DB-4292-8E55-2E99EED9979B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0404E330-B2DB-4292-8E55-2E99EED9979B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0404E330-B2DB-4292-8E55-2E99EED9979B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0404E330-B2DB-4292-8E55-2E99EED9979B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

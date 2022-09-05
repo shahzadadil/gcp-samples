@@ -23,7 +23,7 @@ public class ListRefreshService
                         {
                             CorrelationId = Guid.NewGuid(),
                             CompanyId = c.ToString(),
-                            ListId = l.ToString()
+                            ListId = l
                         });
                 }));
 

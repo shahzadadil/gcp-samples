@@ -7,12 +7,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Google.Cloud.Logging.Log4Net" Version="4.0.0" />
     <PackageReference Include="Google.Cloud.PubSub.V1" Version="3.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Log4Net.AspNetCore" Version="6.1.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\core\Cas.Core.Services.Gcp\Cas.Core.Services.Gcp.csproj" />
+    <ProjectReference Include="..\..\core\Cas.Core\Cas.Core.csproj" />
     <ProjectReference Include="..\Cas.Contact.Data.Models\Cas.Contact.Data.Models.csproj" />
     <ProjectReference Include="..\Cas.Contact.Services\Cas.Contact.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="log4net.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>

@@ -4,5 +4,5 @@ public class ContactRefreshMetadata
 {
 	public Guid CorrelationId { get; set; }
 	public string CompanyId { get; set; }
-	public string ListId { get; set; }
+	public int ListId { get; set; }
 }
